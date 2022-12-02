@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+label.logo {
+  color: deepskyblue;
+  font-size: 35px;
+  line-height: 70px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: whitesmoke;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: flex;
+  line-height: 80px;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+}
+
+li a.active,
+li a:hover {
+  background-color: deepskyblue;
+  padding: 0 14px;
+  transition: 0.5s;
+}
+
+.section-1 {
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.info-1,
+.info-2,
+.info-3,
+.info-4 {
+  width: 18%;
+  padding: 20px 10px 10px;
+}
+
+div.info-1 {
+  background-color: orange;
+  font-weight: 600;
+}
+
+div.info-2 {
+  background-color: blueviolet;
+  font-weight: 600;
+}
+
+div.info-3 {
+  background-color: lightcoral;
+  font-weight: 600;
+}
+
+div.info-4 {
+  background-color: plum;
+  font-weight: 600;
+}
+
+div div {
+  display: flex;
+}
+
+div div p {
+  padding-right: 20px;
+}
+
+div div a {
+  display: flex;
+  align-items: flex-end;
+}
+
+section div h1 {
+  font-size: 40px;
+  overflow-wrap: break-word;
+  line-height: 40px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+section div a {
+  font-size: 36px;
+  color: white;
+}
