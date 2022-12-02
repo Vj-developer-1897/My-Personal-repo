@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-image {
+  background-image: url(/assets/img/background.svg);
+  background-size: cover;
+  background-color: #e1ab46;
+}
